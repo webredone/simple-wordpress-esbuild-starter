@@ -1,0 +1,70 @@
+/*! 
+Theme Name: esbuild-starter 
+Author: Nikola - WebRedone 
+Author URI: https://webredone.com
+Description: EsBuild starter configuration for the modern workflow 
+*/
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.footer {
+  background-color: #e6f3fb;
+  color: #222;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+}
+
+.main-content {
+  padding: 30px;
+  flex: 1;
+}
+
+.footer {
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.root > div {
+  display: inline-flex;
+  margin-right: 30px;
+  border: 4px solid #222;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.root h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.root button {
+  background-color: #222;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=dist/css-maps/style.css.map */
